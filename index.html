@@ -1,12 +1,24 @@
-<html>
-  <head>
-    <css>
-      body{background:black;color:white;}
-      input{width:300px;}
-    </css>
-  </head>
-  <body>
-    <h1>Fracture Character Card</h1>
-    <input type=text></input>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Fracture Character Card</title>
+  <meta name=description content="The HTML5 Herald">
+  <meta name=author" content="Jimmy Xander">
+  <link rel=stylesheet href=style.css>
+</head>
+<body>
+  <h1>Character Card</h1>
+  <form>
+    <label for=health>Health:</label>
+    <input type=range id=health name=health min=0 max=9>
+    <label for=will>Will:</label>
+    <input type=range id=will name=will min=0 max=9>
+    <label for=wealth>Wealth:</label>
+    <input type=range id=wealth name=wealth min=0 max=9>
+    <label for=fracture>Fracture:</label>
+    <input type=range id=fracture name=fracture min=0 max=9>
+    <input type=text name=name id=name placeholder="John Doe">
+  </form>
+  <!-- <script src="js/scripts.js"></script> -->
+</body>
 </html>
