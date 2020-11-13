@@ -6,7 +6,10 @@ input{
   display:block;
   width:300px;
 }
-.ruler{width:300px;}
+.ruler{
+  width:300px;
+  margin-left:10px;
+}
 .ruler div{
   display:inline;
   width:10%;
