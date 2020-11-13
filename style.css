@@ -8,17 +8,17 @@ section{
 form{
   display:inline-block;
   height:3em;
-  background:purple;
+  background:yellow;
 }
 form input{
   display:block;
   width:100%;
 }
 #resources form{
-  width:50%;
+  width:450px;
 }
 #assets form{
-  width:33%;
+  width:300px;
 }
 .ruler{
   width:100%;
