@@ -8,7 +8,7 @@ section{
 form{
   display:inline-block;
   height:3em;
-  background:red;
+  background:purple;
 }
 form input{
   display:block;
