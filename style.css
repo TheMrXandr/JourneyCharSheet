@@ -3,3 +3,11 @@ body{
   background:black;
 }
 input{display:block;}
+.ruler{width:300px;}
+.ruler div{
+  width:10%;
+  border-left-style:solid;
+  border-right-style:solid;
+  border-right-color:white;
+  border-left-color:white;
+}
