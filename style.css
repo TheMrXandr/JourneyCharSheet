@@ -1,6 +1,7 @@
 body{
   color:white;
   background:black;
+  text-align:center;
 }
 section{
  width:900px; 
@@ -8,6 +9,10 @@ section{
 form{
   display:inline-block;
   height:3em;
+}
+form label{
+  display:block;
+  margin:auto;
 }
 form input, form textarea{
   display:block;
