@@ -8,12 +8,9 @@ input{
 }
 .ruler{width:300px;}
 .ruler div{
+  display:inline;
   width:10%;
-  height:2em;
-  border-left-style:solid;
-  border-right-style:solid;
-  border-top-style:solid;
-  border-top-color:white;
-  border-right-color:white;
-  border-left-color:white;
+  height:0.5em;
+  border: 1px solid white;
+  border-bottom-color:transparent;
 }
