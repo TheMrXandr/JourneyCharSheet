@@ -9,7 +9,8 @@ section{
 form{
   display:inline-block;
   height:3em;
-  background:grey;
+  background:red;
+  padding:0.5em;
 }
 form label{
   display:block;
@@ -26,7 +27,7 @@ form input, form textarea{
   width:300px;
 }
 .ruler{
-  width:98%;
+  width:99%;
   margin:auto;
   display:block;
 }
