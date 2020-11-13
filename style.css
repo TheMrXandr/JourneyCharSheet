@@ -2,7 +2,10 @@ body{
   color:white;
   background:black;
 }
-input{display:block;}
+input{
+  display:block;
+  width:300px;
+}
 .ruler{width:300px;}
 .ruler div{
   width:10%;
