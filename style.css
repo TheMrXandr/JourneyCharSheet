@@ -9,7 +9,6 @@ section{
 form{
   display:inline-block;
   height:3em;
-  padding:1em;
   background:grey;
 }
 form label{
