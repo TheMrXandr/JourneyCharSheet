@@ -10,7 +10,7 @@ form{
   display:inline-block;
   height:3em;
   background:blue;
-  padding:0.5em;
+  padding:1em;
 }
 form label{
   display:float;
