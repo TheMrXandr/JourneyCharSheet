@@ -4,7 +4,7 @@ body{
   text-align:center;
 }
 section{
- width:1000px; 
+ width:1200px; 
  margin:auto;
 }
 form{
@@ -27,7 +27,7 @@ form input, form textarea{
   width:300px;
 }
 .ruler{
-  width:99.9%;
+  width:100%;
   margin:auto;
   display:block;
 }
