@@ -5,11 +5,11 @@ body{
 }
 section{
  width:950px; 
+ margin:auto;
 }
 form{
   display:inline-block;
   height:3em;
-  background:blue;
   padding:1em;
 }
 form label{
