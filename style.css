@@ -9,7 +9,7 @@ section{
 form{
   display:inline-block;
   height:3em;
-  background:grey;
+  background:red;
 }
 form label{
   display:block;
