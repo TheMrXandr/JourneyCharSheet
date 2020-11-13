@@ -9,14 +9,14 @@ form{
   display:inline-block;
   height:3em;
 }
-form input{
+form input, form textarea{
   display:block;
   width:100%;
 }
 #resources form{
   width:450px;
 }
-#assets form{
+#assets form, #paths form{
   width:300px;
 }
 .ruler{
