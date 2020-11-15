@@ -18,9 +18,14 @@
     </form><!--
     --></section>
  <section id=resources><!--
+    --><form>
+      <label for=stamina>Stamina</label>
+      <input type=range id=stamina name=stamina min=0 max=9 value=9>
+      <div class=ruler><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+   </form><!--
      --><form>
-        <label for=fracture>Fate</label>
-        <input type=range id=fracture name=fracture min=0 max=9 value=0>
+        <label for=will>Will</label>
+        <input type=range id=will name=will min=0 max=9 value=9>
         <div class=ruler><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
      </form><!--
     --><form>
@@ -28,16 +33,6 @@
       <input type=range id=wealth name=wealth min=0 max=9 value=0>
       <div class=ruler><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
     </form><!--
-     --><form>
-        <label for=will>Will</label>
-        <input type=range id=will name=will min=0 max=9 value=9>
-        <div class=ruler><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
-     </form><!--
-    --><form>
-        <label for=health>Trauma</label>
-        <input type=range id=health name=health min=0 max=9 value=0>
-        <div class=ruler><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
-     </form><!--
  --></section>
  <section id=assets><!--
     --><form>
@@ -58,16 +53,16 @@
  --></section>
   <section id=paths><!--
     --><form>
-      <input type=text id=mind name=mind placeholder="Path Name">
-      <textarea>Path Description</textarea>
+      <input type=text id=mindAbil name=mindAbil placeholder="Mind Ability">
+      <textarea>Ability Description</textarea>
    </form><!--
    --><form>
-      <input type=text id=mind name=mind placeholder="Path Name">
-      <textarea>Path Description</textarea>
+      <input type=text id=bodyAbil name=bodyAbil placeholder="Body Ability">
+      <textarea>Ability Description</textarea>
    </form><!--
   --><form>
-      <input type=text id=mind name=mind placeholder="Path Name">
-      <textarea>Path Description</textarea>
+      <input type=text id=soulAbil name=soulAbil placeholder="Soul ability">
+      <textarea>Ability Description</textarea>
    </form><!--
  --></section>
  <section id="button-section">

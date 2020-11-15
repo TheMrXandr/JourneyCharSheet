@@ -10,6 +10,7 @@ section{
 form{
   display:inline-block;
   height:3em;
+  width:300px;
   padding:1em;
 }
 form label{
@@ -27,11 +28,10 @@ form textarea{
   max-width:100%;
   max-height:6em;
 }
-#resources form{
-  width:450px;
-}
-#assets form, #paths form{
-  width:300px;
+#resources{
+  border-bottom:1px solid #333;
+  padding:1em;
+  margin-bottom:1em;
 }
 .ruler{
   width:100%;
