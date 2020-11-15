@@ -1,5 +1,6 @@
 $(document).ready(function () {
-  jQuery("input").each(function () {
+  $elements = jQuery("[data-save-load=enabled]");  
+  $elements.each(function () {
     var thisOne = $(this);
     console.log($(this).val() + " " + $(this).attr("id"));
     if (localStorage.getItem(thisOne.attr("id"))) {
@@ -7,7 +8,7 @@ $(document).ready(function () {
     }
   });
 
-  jQuery("input").on("change", function () {
+  $elements.on("change", function () {
     var thisOne = $(this);
     console.log("change " + thisOne.attr("id"));
     localStorage.setItem(thisOne.attr("id"), thisOne.val());
