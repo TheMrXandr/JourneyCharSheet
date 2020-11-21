@@ -11,6 +11,7 @@
   <script src="js/main.js"></script>
 </head>
 <body>
+<div id="main-content">   
   <h1>Character Card</h1>
  <section id=info>
     <form>
@@ -66,8 +67,16 @@
    </form><!--
  --></section>
  <section id="button-section">
- <button id="btn-clear-local-storage">Clear Saved Data (No Recovery!)</button>
-</section>
+   <button id="btn-clear-local-storage">Clear Saved Data (No Recovery!)</button>
+   <button id="btn-show-sets-panel">Show Sets Panel</button>
+ </section>
+</div>
   <!-- <script src="js/scripts.js"></script> -->
+<div class="sets-panel closed">
+   <button class="set" data-setid="1">1</button>
+   <button class="xset new-set">New Set<br>+</button>
+</div>
+<button id="btn-hide-sets-panel" style="display: none;">Hide Sets Panel</button>
+
 </body>
 </html>
